@@ -1,11 +1,10 @@
-const express = require("express");
 const {
   getGeoDataFromAPI,
   saveGeoData,
   getAllGeoData,
   getGeoDataById,} = require("../controllers/geoDataController");
 
-const router = express.Router();
+  const router = require('express').Router();
 
 router.get("/", getGeoDataFromAPI);
 router.post("/", saveGeoData);

@@ -9,6 +9,6 @@ const GeoDataSchema = new mongoose.Schema({
   weather: Object 
 }, { timestamps: true });
 
-module.exports = mongoose.model('GeoData', GeoDataSchema);
+module.exports = mongoose.model('geoData', GeoDataSchema);
 
 
